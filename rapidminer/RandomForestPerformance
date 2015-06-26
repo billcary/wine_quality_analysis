@@ -1,10 +1,10 @@
-25.06.2015 22:55:11 Results of ResultWriter 'Write as Text' [1]: 
-25.06.2015 22:55:11 PerformanceVector:
-accuracy: 43.54%
+25.06.2015 23:12:52 Results of ResultWriter 'Write as Text' [1]: 
+25.06.2015 23:12:52 PerformanceVector:
+accuracy: 43.46%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	20	3	0
+6:	172	226	85	18	16	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -14,20 +14,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	20	3	0
+6:	172	226	85	18	16	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:55:22 Results of ResultWriter 'Write as Text' [2]: 
-25.06.2015 22:55:22 PerformanceVector:
-accuracy: 43.61%
+25.06.2015 23:13:01 Results of ResultWriter 'Write as Text' [2]: 
+25.06.2015 23:13:01 PerformanceVector:
+accuracy: 43.46%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	19	3	0
+6:	173	226	85	17	16	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -37,20 +37,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	19	3	0
+6:	173	226	85	17	16	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:55:32 Results of ResultWriter 'Write as Text' [3]: 
-25.06.2015 22:55:32 PerformanceVector:
-accuracy: 43.54%
+25.06.2015 23:13:11 Results of ResultWriter 'Write as Text' [3]: 
+25.06.2015 23:13:11 PerformanceVector:
+accuracy: 43.35%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	20	3	0
+6:	173	225	86	17	15	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -60,20 +60,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	20	3	0
+6:	173	225	86	17	15	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:55:43 Results of ResultWriter 'Write as Text' [4]: 
-25.06.2015 22:55:43 PerformanceVector:
-accuracy: 43.54%
+25.06.2015 23:13:21 Results of ResultWriter 'Write as Text' [4]: 
+25.06.2015 23:13:21 PerformanceVector:
+accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	19	3	1
+6:	173	225	86	17	16	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -83,20 +83,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	283	108	22	19	3	1
+6:	173	225	86	17	16	3	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:55:53 Results of ResultWriter 'Write as Text' [5]: 
-25.06.2015 22:55:53 PerformanceVector:
-accuracy: 43.69%
+25.06.2015 23:13:30 Results of ResultWriter 'Write as Text' [5]: 
+25.06.2015 23:13:30 PerformanceVector:
+accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	213	284	108	22	19	3	1
+6:	173	225	86	17	15	3	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -106,20 +106,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	213	284	108	22	19	3	1
+6:	173	225	86	17	15	3	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:56:04 Results of ResultWriter 'Write as Text' [6]: 
-25.06.2015 22:56:04 PerformanceVector:
-accuracy: 43.76%
+25.06.2015 23:13:40 Results of ResultWriter 'Write as Text' [6]: 
+25.06.2015 23:13:40 PerformanceVector:
+accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	213	284	108	22	18	3	1
+6:	173	225	86	17	15	3	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -129,20 +129,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	213	284	108	22	18	3	1
+6:	173	225	86	17	15	3	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:56:14 Results of ResultWriter 'Write as Text' [7]: 
-25.06.2015 22:56:14 PerformanceVector:
-accuracy: 43.69%
+25.06.2015 23:13:49 Results of ResultWriter 'Write as Text' [7]: 
+25.06.2015 23:13:49 PerformanceVector:
+accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	108	21	19	3	1
+6:	173	225	86	18	15	2	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -152,20 +152,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	108	21	19	3	1
+6:	173	225	86	18	15	2	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:56:25 Results of ResultWriter 'Write as Text' [8]: 
-25.06.2015 22:56:25 PerformanceVector:
-accuracy: 43.69%
+25.06.2015 23:13:59 Results of ResultWriter 'Write as Text' [8]: 
+25.06.2015 23:13:59 PerformanceVector:
+accuracy: 43.35%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	108	21	19	3	1
+6:	173	225	85	18	15	2	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -175,20 +175,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	108	21	19	3	1
+6:	173	225	85	18	15	2	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:56:35 Results of ResultWriter 'Write as Text' [9]: 
-25.06.2015 22:56:35 PerformanceVector:
-accuracy: 43.76%
+25.06.2015 23:14:09 Results of ResultWriter 'Write as Text' [9]: 
+25.06.2015 23:14:09 PerformanceVector:
+accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	108	21	19	3	0
+6:	173	225	85	18	16	2	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -198,20 +198,20 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	108	21	19	3	0
+6:	173	225	85	18	16	2	1
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 22:56:46 Results of ResultWriter 'Write as Text' [10]: 
-25.06.2015 22:56:46 PerformanceVector:
-accuracy: 43.69%
+25.06.2015 23:14:18 Results of ResultWriter 'Write as Text' [10]: 
+25.06.2015 23:14:18 PerformanceVector:
+accuracy: 43.46%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	107	21	21	3	0
+6:	172	226	85	18	17	2	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0
@@ -221,7 +221,7 @@ kappa: 0.000
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
 5:	0	0	0	0	0	0	0
-6:	214	284	107	21	21	3	0
+6:	172	226	85	18	17	2	0
 7:	0	0	0	0	0	0	0
 4:	0	0	0	0	0	0	0
 8:	0	0	0	0	0	0	0

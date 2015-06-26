@@ -16,18 +16,26 @@
       <operator activated="true" class="retrieve" compatibility="5.3.015" expanded="true" height="60" name="Retrieve winequality-combined" width="90" x="45" y="30">
         <parameter key="repository_entry" value="//WineQualityAnalysis/winequality-combined"/>
       </operator>
-      <operator activated="true" class="set_role" compatibility="5.3.015" expanded="true" height="76" name="Set Role" width="90" x="179" y="30">
-        <parameter key="attribute_name" value="quality"/>
-        <parameter key="target_role" value="label"/>
-        <list key="set_additional_roles"/>
-      </operator>
-      <operator activated="true" class="split_data" compatibility="5.3.015" expanded="true" height="94" name="Split Data" width="90" x="313" y="30">
-        <enumeration key="partitions"/>
+      <operator activated="true" class="split_data" compatibility="5.3.015" expanded="true" height="94" name="Split Data" width="90" x="112" y="120">
+        <enumeration key="partitions">
+          <parameter key="ratio" value="0.8"/>
+          <parameter key="ratio" value="0.2"/>
+        </enumeration>
         <parameter key="sampling_type" value="stratified sampling"/>
         <parameter key="use_local_random_seed" value="true"/>
         <parameter key="local_random_seed" value="1992"/>
       </operator>
-      <operator activated="true" class="x_validation" compatibility="5.3.015" expanded="true" height="112" name="Validation" width="90" x="514" y="30">
+      <operator activated="true" class="set_role" compatibility="5.3.015" expanded="true" height="76" name="Set Role (2)" width="90" x="246" y="165">
+        <parameter key="attribute_name" value="quality"/>
+        <parameter key="target_role" value="regular"/>
+        <list key="set_additional_roles"/>
+      </operator>
+      <operator activated="true" class="set_role" compatibility="5.3.015" expanded="true" height="76" name="Set Role" width="90" x="246" y="30">
+        <parameter key="attribute_name" value="quality"/>
+        <parameter key="target_role" value="label"/>
+        <list key="set_additional_roles"/>
+      </operator>
+      <operator activated="true" class="x_validation" compatibility="5.3.015" expanded="true" height="112" name="Validation" width="90" x="447" y="30">
         <parameter key="create_complete_model" value="false"/>
         <parameter key="average_performances_only" value="true"/>
         <parameter key="leave_one_out" value="false"/>
@@ -110,15 +118,18 @@
         <list key="application_parameters"/>
         <parameter key="create_view" value="false"/>
       </operator>
-      <connect from_op="Retrieve winequality-combined" from_port="output" to_op="Set Role" to_port="example set input"/>
-      <connect from_op="Set Role" from_port="example set output" to_op="Split Data" to_port="example set"/>
-      <connect from_op="Split Data" from_port="partition 1" to_op="Validation" to_port="training"/>
-      <connect from_op="Split Data" from_port="partition 2" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Retrieve winequality-combined" from_port="output" to_op="Split Data" to_port="example set"/>
+      <connect from_op="Split Data" from_port="partition 1" to_op="Set Role" to_port="example set input"/>
+      <connect from_op="Split Data" from_port="partition 2" to_op="Set Role (2)" to_port="example set input"/>
+      <connect from_op="Set Role (2)" from_port="example set output" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Set Role" from_port="example set output" to_op="Validation" to_port="training"/>
       <connect from_op="Validation" from_port="model" to_op="Apply Model (2)" to_port="model"/>
       <connect from_op="Validation" from_port="averagable 1" to_port="result 1"/>
+      <connect from_op="Apply Model (2)" from_port="labelled data" to_port="result 2"/>
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
       <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
     </process>
   </operator>
 </process>
