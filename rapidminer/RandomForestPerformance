@@ -1,5 +1,5 @@
-25.06.2015 23:12:52 Results of ResultWriter 'Write as Text' [1]: 
-25.06.2015 23:12:52 PerformanceVector:
+26.06.2015 09:16:07 Results of ResultWriter 'Write as Text' [1]: 
+26.06.2015 09:16:07 PerformanceVector:
 accuracy: 43.46%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -21,8 +21,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:01 Results of ResultWriter 'Write as Text' [2]: 
-25.06.2015 23:13:01 PerformanceVector:
+26.06.2015 09:16:57 Results of ResultWriter 'Write as Text' [2]: 
+26.06.2015 09:16:57 PerformanceVector:
 accuracy: 43.46%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -44,8 +44,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:11 Results of ResultWriter 'Write as Text' [3]: 
-25.06.2015 23:13:11 PerformanceVector:
+26.06.2015 09:17:40 Results of ResultWriter 'Write as Text' [3]: 
+26.06.2015 09:17:40 PerformanceVector:
 accuracy: 43.35%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -67,8 +67,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:21 Results of ResultWriter 'Write as Text' [4]: 
-25.06.2015 23:13:21 PerformanceVector:
+26.06.2015 09:18:23 Results of ResultWriter 'Write as Text' [4]: 
+26.06.2015 09:18:23 PerformanceVector:
 accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -90,8 +90,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:30 Results of ResultWriter 'Write as Text' [5]: 
-25.06.2015 23:13:30 PerformanceVector:
+26.06.2015 09:19:05 Results of ResultWriter 'Write as Text' [5]: 
+26.06.2015 09:19:05 PerformanceVector:
 accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -113,8 +113,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:40 Results of ResultWriter 'Write as Text' [6]: 
-25.06.2015 23:13:40 PerformanceVector:
+26.06.2015 09:19:48 Results of ResultWriter 'Write as Text' [6]: 
+26.06.2015 09:19:48 PerformanceVector:
 accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -136,8 +136,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:49 Results of ResultWriter 'Write as Text' [7]: 
-25.06.2015 23:13:49 PerformanceVector:
+26.06.2015 09:20:40 Results of ResultWriter 'Write as Text' [7]: 
+26.06.2015 09:20:40 PerformanceVector:
 accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -159,8 +159,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:13:59 Results of ResultWriter 'Write as Text' [8]: 
-25.06.2015 23:13:59 PerformanceVector:
+26.06.2015 09:21:25 Results of ResultWriter 'Write as Text' [8]: 
+26.06.2015 09:21:25 PerformanceVector:
 accuracy: 43.35%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -182,8 +182,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:14:09 Results of ResultWriter 'Write as Text' [9]: 
-25.06.2015 23:14:09 PerformanceVector:
+26.06.2015 09:22:08 Results of ResultWriter 'Write as Text' [9]: 
+26.06.2015 09:22:08 PerformanceVector:
 accuracy: 43.27%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
@@ -205,8 +205,8 @@ True:	5	6	7	4	8	3	9
 3:	0	0	0	0	0	0	0
 9:	0	0	0	0	0	0	0
 
-25.06.2015 23:14:18 Results of ResultWriter 'Write as Text' [10]: 
-25.06.2015 23:14:18 PerformanceVector:
+26.06.2015 09:22:50 Results of ResultWriter 'Write as Text' [10]: 
+26.06.2015 09:22:50 PerformanceVector:
 accuracy: 43.46%
 ConfusionMatrix:
 True:	5	6	7	4	8	3	9
