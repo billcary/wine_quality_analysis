@@ -1,6 +1,9 @@
 # wine_quality_analysis
 Analysis of wine quality data set from UCI Machine Learning Repository
 
+Analysis is performed with a variety of models, using tools including:
+* RapidMiner
+
 Citation Request:
   This dataset is public available for research. The details are described in [Cortez et al., 2009]. 
   Please include this citation if you plan to use this database:
